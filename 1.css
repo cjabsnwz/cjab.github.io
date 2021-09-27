@@ -1,0 +1,334 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-color: #f4f4f4;
+    width: 98%;
+}
+
+
+/*标题*/
+.box1 {
+    height: 70px;
+
+    background-color: #f4f4f4;
+
+    background-position: left;
+}
+
+.box1 h1,.box1 a {
+    display: inline-block;
+  
+
+}
+.box1 h1 {
+
+    padding-top: 20px;
+    padding-left: 2vw;
+
+
+    color: #242323;
+
+    width: 25vw;
+    
+
+}
+
+.box1 a {
+    width: 15.9vw;
+
+    text-decoration: none;
+
+    font-size: 25px;
+
+    color: #000000;   
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+}
+
+.box1 a:hover {
+    color: #ffffff;
+}
+
+/*自我介绍主板*/
+.box2 {
+    width: 99vw;
+
+    background-image: url(image/刘锦中.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*自我介绍标题*/
+#one {
+    text-indent: 12%;
+    font-size: 76px;
+
+    padding-top: 203px;
+    color: #000000;
+
+    
+}
+
+/*自我介绍文字*/
+.box2-1  p{
+
+    color: #f4f4f4;
+
+    font-size: 26px;
+    padding-top: 38px;
+
+    text-indent: 12%;
+}
+
+/*广告二维码*/
+.box2-2 {
+    display: inline-block;
+}
+#ad {
+    
+
+    height: 127px;
+}
+#close {
+    margin-left:128px;
+    margin-bottom: 124px;
+
+    width: 10px;
+}
+
+/*自我介绍背景图片切换按钮*/
+.box2-3 {
+    margin-top: 0;
+    margin-left: 45vw;
+}
+.box2-3 button {
+    background-color: #ffffff;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+}
+
+/*学习经历主板*/
+
+#two {
+    font-size: 30px;
+  
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+
+.box3 {
+    height: 460px;
+    display: flex;
+    background-color:rgba(175, 172, 172,0.2);
+
+
+}
+.box3-1, .box3-2, .box3-3 {
+    
+
+    border: solid #ffffff 2px;
+    border-radius: 15px;
+
+    height: 400px;
+    width: 320px;
+
+    margin-left:7.9vw;
+    margin-top: 28px;
+}
+/*第一个盒子的距离*/
+.box3-1 {
+    margin-left: 10vw;
+}
+/*饶平第二中学 .box3-1*/
+.box3-1 h3 {
+    display: inline-block;
+    padding: 20px 50px;
+
+}
+
+.box3-1 img {
+    width: 300px;
+    padding-left: 10px;
+}
+
+.box3-1 p {
+    padding-top: 30px;
+    text-align: center;
+}
+
+/*bilibili自学经历*/
+.box3-2 h3 {
+    display: inline-block;
+    padding: 20px 50px;
+
+}
+
+.box3-2 img {
+    width: 300px;
+    padding-left: 10px;
+}
+
+.box3-2 p {
+    padding-top: 20px;
+    text-align: center;
+}
+
+/*目前学习ing*/
+.box3-3 h3 {
+    display: inline-block;
+    padding: 20px 50px;
+
+}
+
+.box3-3 img {
+    width: 300px;
+    padding-left: 10px;
+}
+
+.box3-3 p {
+    padding-top: 50px;
+    text-align: center;
+}
+
+/*css效果改变*/
+.ch {
+    background-color: #f4f4f4;
+}
+
+/*工作技能*/
+
+#three {
+ 
+    height: 100px;
+    text-align: center;
+    
+    font-size: 30px;
+    background-color: rgba(175, 172, 172,0.2);
+
+}
+
+/*工作技能盒子*/
+
+.box4 {
+    background-color: rgba(175, 172, 172,0.2);
+    height: 170px;
+}
+
+
+/*上面小盒子*/
+#box4-1 {
+    background-color:bisque;
+    margin-left:7.9vw;
+    font-size: 0.8vw;
+}
+#box4-2 {
+    background-color: #c3c5bbf7;
+
+    margin-left: 10.6vw;
+
+    width: 2.1vw;
+    font-size: 0.8vw;
+}
+
+#box4-3 {
+    background-color:bisque;
+
+    margin-left: 15.9vw;
+    font-size: 0.8vw;
+}
+#box4-4 {
+    background-color:#c3c5bbf7;
+
+    margin-left: 13vw;
+
+    width:2.1vw;
+    font-size: 0.8vw;
+}
+
+#box4-5 {
+    background-color:bisque;
+
+    margin-left: 15.9vw;
+    font-size: 0.8vw;
+}
+#box4-6 {
+    background-color: #c3c5bbf7;
+
+    margin-left: 9vw;
+
+    width: 2.1vw;
+    font-size: 0.8vw;
+}
+/*下面小盒子*/
+#box4-7 {
+    display: inline-block;
+    background-color:#142121;
+    height: 20px;
+    width: 10.8vw;
+    margin-left: 7.9vw;
+}
+#box4-8 {
+    display: inline-block;
+    background-color: #535553;
+
+    height: 20px;
+    width: 3.6vw;
+}
+
+#box4-9 {
+    display: inline-block;
+    background-color: #142121;
+    height: 20px;
+    width: 7vw;
+    margin-left: 15.8vw;
+}
+#box4-10 {
+    display: inline-block;
+    background-color: #535553;
+
+    height: 20px;
+    width: 9.7vw;
+}
+#box4-11 {
+    width: 14.4vw;
+    height: 20px;
+    background-color: #142121;
+    margin-left: 15.7vw;
+}
+
+/*未来规划*/
+#four {
+    text-align: center;
+    font-size: 30px;
+}
+
+.box5 {
+    display: flex;
+    height: 400px;
+    background-color: #ffffff;
+}
+
+/*左箭头*/
+#btn1 {
+    margin-left: 15vw;
+    margin-top: 129px;
+    height: 50px;
+}
+/*表情包*/
+#photo {
+    height: 300px;
+}
+/*右箭头*/
+#btn2 {
+    margin-top: 129px;
+    height: 50px;
+    background-color: rgba(15, 9, 9, 0);
+}
+
